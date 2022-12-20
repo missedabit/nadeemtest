@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
-<html lang="en" class="govuk-template "> 
+<html lang="en" class="govuk-template ">
   <head>
     <meta charset="utf-8">
     <title>
-Get support with energy costs
+        Get energy bill support
 </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b0c0c"> 
@@ -78,7 +78,7 @@ Get support with energy costs
     
     
       <a href="start.html" class="govuk-header__link govuk-header__service-name">
-        Get support with energy costs
+        Get energy bill support
       </a>
     
     
@@ -107,80 +107,131 @@ Get support with energy costs
 
 
 
-        <main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main">
+<a href="#" onclick="history.back(-1)" class="govuk-back-link">Back</a>
+
+
+
+<main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content" role="main">
           
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <h1 class="govuk-heading-l">Get support with energy costs</h1>
-    <h2 class="govuk-heading-m">For organisations that use heating oil</h2>
-    <p class="govuk-body-l">Applies to England, Scotland and Wales</p>
-  </div>
-</div>
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
-    <p class="govuk-body-s">Contents</p>
-    <ul class="govuk-list">
-      <li class="govuk-body-s"><a class="govuk-link govuk-link--no-visited-state" href="#overview">Overview</a></li>
-      <li class="govuk-body-s"><a class="govuk-link govuk-link--no-visited-state" href="#whoapplies">Who can apply</a></li>
-      <li class="govuk-body-s"><a class="govuk-link govuk-link--no-visited-state" href="#support">What support is available</a></li>
-      <li class="govuk-body-s"><a class="govuk-link govuk-link--no-visited-state" href="#before-you-start">Before you start</a></li>
-      <li class="govuk-body-s"><a class="govuk-link govuk-link--no-visited-state" href="#help-with-service">Help with this service</a></li>
-    </ul>
-  </div>
-</div>
-<div class="govuk-grid-row govuk-!-margin-bottom-3">
-  <div class="govuk-grid-column-full">
-    <div class="govuk-section-break govuk-section-break--visible"></div>
-  </div>
-</div>
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-l">What are your organisations bank account details?</h1>
+    <form action="building-address.html" method="post" novalidate="">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          
+    
+    <div class="govuk-form-group">
+      <label class="govuk-label" for="name-on-the-account">
+        Name on the account
+      </label>
+    
+    <input class="govuk-input" id="name-on-the-account" name="name-on-the-account" type="text" spellcheck="false" autocomplete="name">
+    
+    </div>
+    
+          
+          
+    
+    <div class="govuk-form-group">
+      <label class="govuk-label" for="sort-code">
+        Sort code
+      </label>
+    
+      
+      
+      <div id="sort-code-hint" class="govuk-hint">
+        Must be 6 digits long
+      </div>
+    
+    <input class="govuk-input govuk-input--width-5" id="sort-code" name="sort-code" type="text" spellcheck="false" aria-describedby="sort-code-hint" inputmode="numeric">
+    
+    </div>
+    
+          
+          
+    
+    <div class="govuk-form-group">
+      <label class="govuk-label" for="account-number">
+        Account number
+      </label>
+    
+      
+      
+      <div id="account-number-hint" class="govuk-hint">
+        Must be between 6 and 8 digits long
+      </div>
+    
+    <input class="govuk-input govuk-input--width-10" id="account-number" name="account-number" type="text" spellcheck="false" aria-describedby="account-number-hint" inputmode="numeric">
+    
+    </div>
+    
+          
+          
+    
+    <div class="govuk-form-group">
+      <label class="govuk-label" for="roll-number">
+        Building society roll number (if you have one)
+      </label>
+    
+      
+      
+      <div id="roll-number-hint" class="govuk-hint">
+        You can find it on your card, statement or passbook
+      </div>
+    
+    <input class="govuk-input govuk-input--width-10" id="roll-number" name="roll-number" type="text" spellcheck="false" aria-describedby="roll-number-hint">
+    
+    </div>
+    
+    
+          
+    
+    
+    <div class="govuk-form-group">
+    
+      <div class="govuk-checkboxes" data-module="govuk-checkboxes">
+        
+          
+              
+            
+              
+              
+              
+              
+              
+              <div class="govuk-checkboxes__item">
+                <input class="govuk-checkboxes__input" id="business-account" name="business-account" type="checkbox" value="yes">
+                <label class="govuk-label govuk-checkboxes__label" for="business-account">
+            This is is a business account
+          </label>
+                
+              </div>
+              
+            
+          
+        
+      </div>
+    
+    </div>
+    
+          
+          
+    
+      
+        
+      
+    
+    <button class="govuk-button" data-module="govuk-button">
+      Continue
+    </button>
+    
+        </div>
+      </div>
+    </form>
+    
+            </main>
 
 
-    <h2 id="overview" class="govuk-heading-m">Overview</h2>
-    <p class="govuk-body">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-    <ul class="govuk-list govuk-list--bullet">
-      <li>content content content </li>
-      <li>content content content </li>
-    </ul>
 
-    <h2 id="whoapplies" class="govuk-heading-m">Who can apply</h2>
-    <p class="govuk-body">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>  
-
-    <h2 id="support" class="govuk-heading-m">What support is available</h2>
-    <p class="govuk-body">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>  
-
-
-    <h2 id="before-you-start" class="govuk-heading-m">Before you start</h2>
-    <p class="govuk-body">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>  
-    <ul class="govuk-list govuk-list--bullet">
-      <li>content content content </li>
-      <li>content content content </li>
-      <li>content content content </li>
-      <li>content content content </li>
-    </ul>
-
-
-
-
-<a href="main-use.html" role="button" draggable="false" class="govuk-button govuk-button--start" data-module="govuk-button">
-  Start now
-  <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" aria-hidden="true" focusable="false">
-    <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z"/>
-  </svg></a>
-
-
-
-
-  <h2 id="help-with-service" class="govuk-heading-m">Help with this service</h2>
-  <p class="govuk-body">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>  
-
-
-
-  </div>
-</div>
-
-        </main>
       </div>
     
 
@@ -271,6 +322,26 @@ Get support with energy costs
 
 
   <script src="public/javascripts/auto-store-data.js"></script>
+
+  
+    <script type="text/javascript">
+
+      $( document ).ready(function() {
+
+        $('.govuk-button').click(function (e) {
+
+        });
+
+
+
+
+
+
+
+
+
+      });
+    </script>
 
 
     
