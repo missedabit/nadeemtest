@@ -144,11 +144,10 @@
   <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
   
     <h1 class="govuk-fieldset__heading">
-      Does your organisation have a registration number?
+      Are you your organisations authorised person to submit this application?
     </h1>
   
   </legend>
-  
 
 
 
@@ -165,8 +164,8 @@
         
         
         <div class="govuk-radios__item">
-          <input class="govuk-radios__input" id="reg-no" name="reg-no" type="radio" value="yes">
-          <label class="govuk-label govuk-radios__label" for="reg-no">
+          <input class="govuk-radios__input" id="authorised-person" name="authorised-person" type="radio" value="yes">
+          <label class="govuk-label govuk-radios__label" for="authorised-person">
         Yes
       </label>
           
@@ -180,8 +179,8 @@
         
         
         <div class="govuk-radios__item">
-          <input class="govuk-radios__input" id="reg-no-2" name="reg-no" type="radio" value="no">
-          <label class="govuk-label govuk-radios__label" for="reg-no-2">
+          <input class="govuk-radios__input" id="authorised-person-2" name="authorised-person" type="radio" value="no">
+          <label class="govuk-label govuk-radios__label" for="authorised-person-2">
         No
       </label>
           
@@ -315,14 +314,14 @@
         $('.govuk-button').click(function (e) {
 
 
-          if ($('#reg-no').is(':checked')) {
-            window.location.href = 'organisation-registered.html';
+          if ($('#authorised-person').is(':checked')) {
+            window.location.href = 'person-role.html';
           }
-          else if ($('#reg-no-2').is(':checked')) {
+          else if ($('#authorised-person-2').is(':checked')) {
             window.location.href = '#';
           };
 
-            if (!$("input[name='reg-no']:checked").val()) {
+            if (!$("input[name='authorised-person']:checked").val()) {
               $("div").closest(".govuk-form-group").addClass("govuk-form-group--error");
               $(".govuk-error-summary, .govuk-error-message").show();
               return false;
